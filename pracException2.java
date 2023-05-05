@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 class AgeException extends RuntimeException
 {
-	public AgeException() {
-		printStackTrace();
+	public AgeException(String msg) {
+		super(msg);
 	}
 }
 public class pracException2 {
@@ -15,7 +15,7 @@ public class pracException2 {
 		if(age<18)
 		{
 			try {
-				throw new AgeException();
+				throw new AgeException("hii");
 			}
 			catch (Exception e) {
 				e.printStackTrace();

@@ -19,4 +19,3 @@ public class SingleTon {
 		System.out.println(ob1.hashCode());
 	}
 }
-n
