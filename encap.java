@@ -16,4 +16,3 @@ public class encap {
 		System.out.println(ob.getter());
 	}
 }
--
