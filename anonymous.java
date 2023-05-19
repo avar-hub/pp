@@ -4,6 +4,9 @@ class anon {
 	{
 		System.out.println("Hello");
 	}
+
+	
+	}
 }
  class anonymous
 {

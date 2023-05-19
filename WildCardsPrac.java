@@ -37,13 +37,13 @@ import java.util.ArrayList;
 public class WildCardsPrac {  
   
       
-    private static Double add(ArrayList<? extends Number> num) {  
+    private static int add(ArrayList<? extends Number> num) {  
       
-        double sum=0.0;  
+        int sum=0;  
           
         for(Number n:num)  
         {  
-            sum = sum+n.doubleValue();  
+            sum = sum+n.intValue();  
         }  
           
         return sum;  
@@ -57,8 +57,8 @@ public class WildCardsPrac {
         System.out.println("displaying the sum= "+add(l1));  
           
         ArrayList<Double> l2=new ArrayList<Double>();  
-        l2.add(30.0);  
-        l2.add(40.0);  
+        l2.add(30.0d);  
+        l2.add(40.0d);  
         System.out.println("displaying the sum= "+add(l2));  
           
           
